@@ -1,0 +1,7 @@
+language: minimal
+
+install:
+  - git clone --depth=1 https://github.com/leafOfTree/test ../test
+
+script:
+  - bash ../test/start.sh vue vim-vue-plugin
